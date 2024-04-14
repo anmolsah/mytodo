@@ -1,0 +1,133 @@
+.task_card {
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid #dcdcdc;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.task_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task_title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+}
+
+.task_delete {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover {
+    background-color: #f0f0f0;
+}
+
+.delete_icon {
+    width: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.delete_icon:hover {
+    opacity: 1;
+}
+
+.task_tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task_card {
+    
+    position: relative; 
+}
+
+.task_tags .tag {
+    
+    transition: transform 0.2s ease-in-out; 
+}
+
+.task_tags .tag:hover {
+    transform: scale(1.1);
+}
+
+
+ /* .task_card {
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid #1e2139; 
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #2d3149; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+}
+
+.task_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.task_title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ddd;
+}
+
+.task_delete {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.task_delete:hover {
+    background-color: #1e2139; 
+}
+
+.delete_icon {
+    width: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.delete_icon:hover {
+    opacity: 1;
+}
+
+.task_tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task_tags .tag {
+    transition: transform 0.2s ease-in-out; 
+}
+
+.task_tags .tag:hover {
+    transform: scale(1.1);
+} */
